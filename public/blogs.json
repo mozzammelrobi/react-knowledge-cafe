@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "cover": "https://i.ibb.co/vHmhphY/photo-1432821596592-e2c18b78144f.jpg",
+      "title": "Exploring the Mysteries of Quantum Mechanics",
+      "author": "Dr. Evelyn Smith",
+      "author_img": "https://i.ibb.co/xsDd1Jb/photo-1500648767791-00dcc994a43e.jpg",
+      "posted_date": "March 12, 2024",
+      "reading_time": 10,
+      "hashtags": ["#quantumphysics", "#science", "#research"]
+    },
+    {
+      "id": 3,
+      "cover": "https://i.ibb.co/vHmhphY/photo-1432821596592-e2c18b78144f.jpg",
+      "title": "The Art of Mindful Living",
+      "author": "Johnathan Green",
+      "author_img": "https://i.ibb.co/xsDd1Jb/photo-1500648767791-00dcc994a43e.jpg",
+      "posted_date": "March 10, 2024",
+      "reading_time": 8,
+      "hashtags": ["#mindfulness", "#wellness", "#meditation"]
+    },
+    {
+      "id": 5,
+      "cover": "https://i.ibb.co/vHmhphY/photo-1432821596592-e2c18b78144f.jpg",
+      "title": "Unraveling the Enigma of Artificial Intelligence",
+      "author": "Dr. Alan Watson",
+      "author_img": "https://i.ibb.co/xsDd1Jb/photo-1500648767791-00dcc994a43e.jpg",
+      "posted_date": "March 8, 2024",
+      "reading_time": 12,
+      "hashtags": ["#ai", "#machinelearning", "#technology"]
+    },
+    {
+      "id": 7,
+      "cover": "https://i.ibb.co/vHmhphY/photo-1432821596592-e2c18b78144f.jpg",
+      "title": "The Secret History of Ancient Civilizations",
+      "author": "Emily Johnson",
+      "author_img": "https://i.ibb.co/xsDd1Jb/photo-1500648767791-00dcc994a43e.jpg",
+      "posted_date": "March 6, 2024",
+      "reading_time": 15,
+      "hashtags": ["#history", "#archaeology", "#ancientcivilizations"]
+    },
+    {
+      "id": 9,
+      "cover": "https://i.ibb.co/vHmhphY/photo-1432821596592-e2c18b78144f.jpg",
+      "title": "Unlocking the Potential of Renewable Energy",
+      "author": "Dr. Michael Chen",
+      "author_img": "https://i.ibb.co/xsDd1Jb/photo-1500648767791-00dcc994a43e.jpg",
+      "posted_date": "March 4, 2024",
+      "reading_time": 7,
+      "hashtags": ["#renewableenergy", "#sustainability", "#climatechange"]
+    }
+  ]
+  
