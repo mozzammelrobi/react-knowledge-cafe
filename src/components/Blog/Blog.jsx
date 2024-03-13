@@ -2,7 +2,7 @@ import { space } from 'postcss/lib/list';
 import PropTypes from 'prop-types';
 import { IoIosBookmark } from "react-icons/io"; 
 
-const Blog = ({blog, handleAddBookmard}) => {
+const Blog = ({blog, handleAddBookmard, hadleMarkAsRead}) => {
     
     const {title, cover,author,author_img,posted_date,hashtags,reading_time}= blog
     return (
@@ -19,7 +19,7 @@ const Blog = ({blog, handleAddBookmard}) => {
                 <div className='flex flex-row justify-center items-center'>
                     <span>{reading_time} min read</span>
                     <button 
-                        onClick={handleAddBookmard}
+                        onClick={()=>handleAddBookmard(title)}
                         className='ml-3 text-2xl'
                     ><IoIosBookmark /></button>
                 </div>
@@ -30,6 +30,10 @@ const Blog = ({blog, handleAddBookmard}) => {
                     hashtags.map((has, idx) => <span key={idx}><a href="">{has}</a></span>)
                 }
             </p>
+            <button 
+                onClick={() => hadleMarkAsRead(reading_time)} 
+                className='text-blue-600 font-bold underline'
+             >mark as read</button>
         </div>
     );
 };
@@ -37,5 +41,7 @@ const Blog = ({blog, handleAddBookmard}) => {
 
 Blog.propTypes = {
     blog: PropTypes.object,
+    handleAddBookmard: PropTypes.func
+   
 }
 export default Blog;

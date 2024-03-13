@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import Blog from "../Blog/Blog";
 
-const Blogs = ({handleAddBookmard}) => {
+const Blogs = ({handleAddBookmard, hadleMarkAsRead }) => {
     const [blogs, setBlogs]= useState([]);
 
     useEffect(()=>{
@@ -18,10 +18,12 @@ const Blogs = ({handleAddBookmard}) => {
                       key={blog.id} 
                       blog = {blog}
                       handleAddBookmard ={handleAddBookmard}
+                      hadleMarkAsRead ={ hadleMarkAsRead }
                     ></Blog>)
             }
         </div>
     );
 };
+
 
 export default Blogs;
